@@ -56,7 +56,7 @@ $ apkleaks -f ~/path/to/file.apk
 # from Source
 $ python3 apkleaks.py -f ~/path/to/file.apk
 # or with Docker
-$ docker run -it --rm -v /tmp:/tmp apkleaks:latest -f /tmp/diva.apk
+$ docker run -it --rm -v /tmp:/tmp dwisiswant0/apkleaks -f /tmp/diva.apk
 ```
 
 ### Options
